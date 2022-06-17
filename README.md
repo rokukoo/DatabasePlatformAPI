@@ -10,11 +10,11 @@ private Database database;
 @Override
 public onEnable(){
     this.database = DatabasePlatformAPI
-                        .createDatabase(DatabasePlatform.MYSQL, pluginName)
-                        .host("localhost")
-                        .port(3306)
-                        .user("root")
-                        .password("root")
-                        .connect();
+                    .createDatabase(DatabasePlatform.MYSQL, pluginName)
+                    .host("localhost")
+                    .port(3306)
+                    .user("root")
+                    .password("root")
+                    .connect();
 }
 ```
